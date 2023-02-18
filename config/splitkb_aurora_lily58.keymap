@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
-#include <dt-bindings/zmk/rgb.h>
 
 / {
 	keymap {
@@ -47,7 +46,7 @@
                                               &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp RGB_HUI RGB_HUD>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		raise_layer {
